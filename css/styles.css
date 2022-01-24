@@ -1,0 +1,68 @@
+
+
+
+/* === COMMON === */
+
+.section-inner {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+
+/* === HEADER === */
+
+
+
+
+/* === HERO === */
+
+
+
+
+/* === VIRTUAL CARD === */
+
+.virtual-card__cta {
+    height: 60px;
+    width: 163px;
+    border-radius: 10px;
+    padding: 18px 40px;
+    text-decoration: none;
+    background-color: #FF5762;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.virtual-card__list {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+/* === CONTROL TEAM === */
+
+.control-team .section-inner {
+    flex-direction: column;
+}
+
+.control-team__feature {
+    display: flex;
+    
+}
+
+
+/* === STEPS === */
+
+.steps__list {
+    list-style: none;
+    display: flex;
+}
+
+
+/* === ABOUT US === */
+
+
+
+/* === FOOTER === */
