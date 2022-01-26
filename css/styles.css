@@ -63,6 +63,77 @@
 
 /* === ABOUT US === */
 
+.about-us__slides-wrapper {
+    position: relative;
+    max-width: 100%;
+}
+
+.about-us__bullets {
+    display: flex;
+
+}
+
 
 
 /* === FOOTER === */
+
+.footer__logo-link {
+    display: inline-block;
+    width: 108px;
+    height: 24px;
+    background: url(../images/logo.svg) no-repeat center;
+
+}
+
+.footer__socials {
+    list-style: none; 
+}
+
+.socials__link {
+    display: inline-block;
+    width: 24px; 
+    height: 25px;
+}
+
+
+.socials__link_facebook {
+    background: url(../images/icon-facebook.svg) no-repeat center;
+    
+}
+
+.socials__link_instagram {
+    background: url(../images/icon-instagram.svg) no-repeat center;
+
+}
+
+.socials__link_linkedin {
+    background: url(../images/icon-linkedin.svg) no-repeat center;
+}
+
+
+.footer__store-badges {
+    list-style: none;
+}
+
+
+.store-badges__link_appstore {
+    display: inline-block;
+    width: 136px;
+    height: 41px;
+    background: url(../images/get-appstore.svg) no-repeat center;
+}
+
+.store-badges__link_googleplay {
+    display: inline-block;
+    width: 138px;
+    height: 41px;
+    background: url(../images/get-googleplay.svg) no-repeat center;
+}
+
+.footer__legal-links {
+    list-style: none;
+}
+
+.footer__legal-link {
+    text-decoration: none;
+}
